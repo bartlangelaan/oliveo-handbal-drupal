@@ -7,6 +7,7 @@ Gemaakt in Drupal 8.
 - [ ] Back-end
   - [x] Drupal opzetten
   - [ ] Artikelen uitbreiden (nieuws, teamnieuws, evenement)
+  - [ ] Teams
   - [ ] Wedstrijden ophalen van NHV
   - [ ] Gebruikersrollen aanmaken
 - [ ] Front-end
