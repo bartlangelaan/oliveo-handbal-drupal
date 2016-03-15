@@ -1,0 +1,59 @@
+<div id="container">
+
+    <!-- Begin Head -->
+    <div id="head">
+        <a href="/"><img class="logo" src="{{ base_path }}{{ directory}}/images/Oliveo.png" alt=""/></a>
+        <div id="fadeshow1"></div>
+
+    </div>
+    <!-- Sluiten Head -->
+
+    <!-- Begin navigatie -->
+
+    <div id="nav" class="nav">
+
+        {{ page.navigation }}
+
+    </div> <!-- sluiten navigatie -->
+
+
+    <!-- Beginnen main -->
+
+    <div id="center">
+        <div id="leftcenter">
+            <a style="float:left; margin-top: 5px;color:white; text-align: left; text-decoration:none; width:98px; height:23px; padding-top:5px;" href="http://www.oliveohandbal.nl/contact">>> Contact</a><br/>
+            <a style="float:left; margin-top: 5px;color:white; text-align: left; text-decoration:none; width:98px; height:23px; padding-top:5px;" href="http://www.oliveohandbal.nl/route">>> Route</a><br/>
+            <a style="float:left; margin-top: 5px;color:white; text-align: left; text-decoration:none; width:98px; height:23px; padding-top:5px;" href="http://www.oliveohandbal.nl/informatie/lidworden">>> Lid worden</a><br/>
+
+            <div id="fixedballs" > <img src="{{ base_path }}{{ directory}}/images/balls.png" /> </div> <!-- verdient niet de schoonheidsprijs, via CSS opnieuw opmaken -->
+        </div>
+        <div id="middencenter">
+
+            {{ page.content }}
+
+        </div>
+        <div id="rightcenter">
+            <div id='sponsors'><br/><a href='http://www.klaverblad.nl' target='_blank'><img style='background-color:#FFF' src='{{ base_path }}{{ directory}}/images/sponsors/klaverblad.png' /></a><br/>
+                <br/><a href='http://www.lcvanbuytene.nl/' target='_blank'><img style='background-color:#FFF;' src='{{ base_path }}{{ directory}}/images/sponsors/buytene2.png' /></a><br/>    <br/>
+            </div>
+
+
+            <div id="twitter">
+                <a class="twitter-timeline" data-dnt="true" href="https://www.twitter.com/search?q=oliveohandbal" data-widget-id="375855023730601984">Tweets about "oliveohandbal"</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Sluiten main -->
+
+    <div id="footer">
+        <div id="footercontent">
+            <center>Ontwerp en onderhoud door redactie & webmaster Oliveohandbal 2011 - 2016</center>
+            <center> Ontwerp:<A HREF="mailto:redactie@oliveohandbal.nl">Redactie en webmaster</A> -  Onderhoud :<A HREF="mailto:Webmaster@oliveohandbal.nl">Webmaster</A> -  Webmail:<A HREF="http://oliveohandbal.nl/roundcube/">webmail</A> </center>
+
+        </div>
+    </div>
+
+</div> <!-- sluiten container -->

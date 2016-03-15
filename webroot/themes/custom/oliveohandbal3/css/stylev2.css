@@ -1,0 +1,187 @@
+html{ height: 100%; width: 100%;overflow-y: scroll; }
+
+body {	margin-left: auto; margin-right: auto; margin-top: 0px; width:1024px; font-size: 13px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+
+#container {  }
+
+/* Head */
+#head {min-height:292px; width:1024px;background-image:url('/themes/custom/oliveohandbal3/images/achtergrondhandbal2.png'); background-position:left; background-repeat:no-repeat;}
+#fadeshow1 { float:right; margin-top:92px;}
+img.logo { margin-top:70px; margin-left:2px; height:214px; width:261px; position:absolute; z-index:1001; border:none}
+
+/* Navigatie */ 
+#nav {border-bottom:#FFF solid 1px;}
+#menu {margin-left:43px; }
+
+
+
+.menu ul li {margin:0; padding:0; outline:0}
+.nav ul{margin:0; padding:0; outline:0} 
+.nav {height:28px; background:#55b6e7; color:#000; z-index:1000;  }
+.menu a {float:left; color:#000; text-decoration:none; width:98px; height:23px; padding-top:5px; border:1px solid #fff; border-bottom:none; text-decoration:none;}/**/
+.menu span {float:left; color:#000; text-decoration:none; width:98px; height:28px; padding-top:8px}
+.menu a:hover {color:#000; text-decoration:none;}
+.menu a:link {color:#000; text-decoration:none;}
+.menu {list-style:none;  width:900px; margin:0 auto}
+.menu li {position:relative; float:left; width:98px; z-index:1000; font-size: 13px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-align:center; }
+.menu ul {display:none; position:absolute; font:normal 13px Arial,Verdana; top:28px; left:0; background:#55b6e7; display:none; list-style:none}
+.menu ul li {float:none; /*border-top:1px solid #fff;*/ width:98px; }
+.menu ul li a, li.menuhover li a, li.menuhover li.menuhover li a {float:none; display:block; background:none; height:28px; padding-top:5px; text-decoration:none;}
+.menu ul li a:hover, li.menuhover li a:hover, li.menuhover li.menuhover li a:hover {background:#eee; color:#000; text-decoration:none;}
+.menu ul li span, li.menuhover li span, li.menuhover li.menuhover li span {float:none; display:block; background:none; height:28px; padding-top:5px}
+.menu ul ul {left:98px; top:0}
+.menu li.noborder {border-top:none; width: 125px;}
+
+.menu ul.secondstage {width: 125px;}
+.menu a.secondstage {float:left; color:#000; text-decoration:none; width:125px; height:23px; padding-top:5px; border:1px solid #fff; border-bottom:none; text-decoration:none;}/**/
+
+
+li.menuhover a, li.menuhover li.menuhover a {color:#000; background:#eee; text-decoration:none;}
+li.menuhover span, li.menuhover li.menuhover span {color:#000; background:#eee}
+
+
+/***** Main *****/
+#center {padding-bottom:0px;margin-bottom:-10px;width:100%; height:100%;background-image:url('/themes/custom/oliveohandbal3/images/mainbackground2.png'); background-repeat:repeat-y; background-position:center;overflow:hidden}
+
+#leftcenter {margin-left:45px; width:194px; min-height:15px; float:left;}
+#middencenter { margin-top:10px; margin-left:20px; width:568px;float:left; min-height:375px; } 
+#rightcenter {margin-left:8px; width:188px; float:left;}
+
+#kolomlinks {margin-left:0px; margin-top:20px; margin-bottom:20px; width:284px;float:left;}
+#kolomrechts{margin-left:0px; margin-top:20px; margin-bottom:20px; width:284px;float:left;}
+
+/****** teksten *****/
+H2.maincontent { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:22px; color:#0c4da2; } 
+H3.maincontent {font-family:Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#0652ba;  }
+p.maincontent {font-family:Verdana, Geneva, sans-serif; font-size:12px;  }
+a.maincontent:link { text-decoration:none;  color:#000; }
+a.maincontent:visited { text-decoration:none;  color:#000; }
+a.maincontent:hover { text-decoration:underline; color:#000; }
+a.maincontent:active { text-decoration:none;  color:#000; }
+li.maincontent {font-family:Verdana, Geneva, sans-serif; list-style-type:none; font-size:13px;}
+
+/***** Homepagina *****/
+#homecontendiv {width:568px;}
+#homecontendiv {margin-bottom:50px}
+#homecontendiv img{ width:220px; height:150px; }
+#homecontendiv H3 {font-size:14px;}
+#homecontendiv P {color:#000}
+#homecontendiv a:link { text-decoration:none;  color:#0c4da2; }
+#homecontendiv a:visited { text-decoration:none;  color:#0c4da2; }
+#homecontendiv a:hover { text-decoration:none;  color:#0c4da2; }
+#homecontendiv a:active { text-decoration:none;  color:#0c4da2; }
+#homecontent1 {width:220px; text-align:center;margin-left:0px; margin-top:0px; height:230px; max-height:230px;float:left }
+#homecontent1 H3 {font-size:14px	}
+#homecontent1 P {color:#000}
+#homecontent1 a:link { text-decoration:none;  color:#0c4da2; }
+#homecontent1 a:visited { text-decoration:none;  color:#0c4da2; }
+#homecontent1 a:hover { text-decoration:none;  color:#0c4da2; }
+#homecontent1 a:active { text-decoration:none;  color:#0c4da2; }
+#homecontent1 img{ width:220px; height:150px; }
+#homenieuws { float:left; min-width:470px; max-width:470px; margin-left:2px; margin-top:20px;}
+
+#homecontentC H3 {font-size:14px;}
+#homecontentC P {color:#000}
+#homecontentC a:link { text-decoration:none;  color:#0c4da2; }
+#homecontentC a:visited { text-decoration:none;  color:#0c4da2; }
+#homecontentC a:hover { text-decoration:none;  color:#0c4da2; }
+#homecontentC a:active { text-decoration:none;  color:#0c4da2; }
+#homecontentC {width:220px; text-align:center; margin-left:auto; margin-right:auto;margin-top:0px; height:230px; max-height:230px;}
+#homecontentC img{ width:220px; height:150px; }
+
+/***** nieuwsberichten op de home *****/
+p.nieuwsberichten {font-family:Verdana, Geneva, sans-serif; font-size:11px; margin-top:10px;  }
+a.nieuwsberichten:link { text-decoration:none;  color:#000; }
+a.nieuwsberichten:visited { text-decoration:none;  color:#000; }
+a.nieuwsberichten:hover { text-decoration:underline; color:#000; }
+a.nieuwsberichten:active { text-decoration:none;  color:#000; }
+tr.nieuwsberichten {font-family:Verdana, Geneva, sans-serif; font-size:12px; margin-left:2px; width:90px;}
+
+tr.nieuws {font-family:Verdana, Geneva, sans-serif; font-size:12px; margin-left:0px;;}
+td.nieuws {margin-left:0px;margin-right:0px;}
+th.nieuws  {font-family:Verdana, Geneva, sans-serif; font-size:12px;font-weight:bold;text-align:left;}
+
+/* teksten */
+H2.maincontent { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:22px; color:#0c4da2; } 
+H3.maincontent {font-family:Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#0652ba;  }
+p.maincontent {font-family:Verdana, Geneva, sans-serif; font-size:12px;  }
+a.maincontent:link { text-decoration:none;  color:#000; }
+a.maincontent:visited { text-decoration:none;  color:#000; }
+a.maincontent:hover { text-decoration:underline; color:#000; }
+a.maincontent:active { text-decoration:none;  color:#000; }
+li.maincontent {font-family:Verdana, Geneva, sans-serif; list-style-type:none; font-size:13px;}
+
+/* teksten V2.0 */
+H2{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:22px; color:#0c4da2; } 
+H3{font-family:Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#0652ba;  }
+p{font-family:Verdana, Geneva, sans-serif; font-size:12px;  }
+a:link { text-decoration:underline;  color:#000; }
+a:visited { text-decoration:underline;  color:#000; }
+a:hover { text-decoration:underline; color:#000; }
+a:active { text-decoration:underline;  color:#000; }
+li{font-family:Verdana, Geneva, sans-serif; list-style-type:none; font-size:13px;}
+li.none { list-style-type:decimal;}
+
+/* programmaoverzicht */
+tr.programmauitfluiters  {font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold; color:#0652ba; border-bottom:medium;   vertical-align:bottom; height:35px;}
+tr.programmaoverzichtkopuitfluiters  {font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold; color:#0652ba;  border-bottom:medium;   vertical-align:bottom; }
+tr.programmaoverzichtkop {font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold; color:#0652ba; height:35px; border-bottom:medium;   vertical-align:bottom; }
+tr.programmaoverzichtgegevens {font-family:Verdana, Geneva, sans-serif; font-size:10px; vertical-align:top;}	
+tr.programmaoverzichtgegevensaangepast {font-family:Verdana, Geneva, sans-serif; font-size:10px; vertical-align:top; color:#F00;}
+
+/* Teams */
+#teams img { width:275px; height:198px; } 
+#teams { float:left; width:475px; }
+#teamsblocks { margin-left:5px; float:left; width:220px; }
+H2.teams { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:22px; color:#0c4da2;  } 
+H3.teams {font-family:Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#0652ba; margin:0px;  }
+p.teams {font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:0px;  }
+a.teams:link { text-decoration:none;  color:#000; }
+a.teams:visited { text-decoration:none;  color:#000; }
+a.teams:hover { text-decoration:underline; color:#000; }
+a.teams:active { text-decoration:none;  color:#000; }
+li.teams { font-family:Verdana, Geneva, sans-serif; list-style-type:none; font-size:12px; margin-top:-1px;}
+tr.teams {font-family:Verdana, Geneva, sans-serif; font-size:12px; margin:0px; }
+tr.teamskop {font-family:Verdana, Geneva, sans-serif; font-size:13px; text-decoration:underline; font-weight:bold; color:#0652ba; border-bottom:medium;   vertical-align:bottom; }
+p.staf {font-family:Verdana, Geneva, sans-serif; font-size:12px; margin:0px;}
+li.staf {list-style-type:none; font-size:12px; font-family:Verdana, Geneva, sans-serif; margin:0px;}
+
+/*breadcrum */
+a.breadcrum {font-family:Verdana, Geneva, sans-serif; font-size:10px; margin:0px;}
+a.breadcrum:link { text-decoration:none;  color:#000; }
+a.breadcrum:visited { text-decoration:none;  color:#000; }
+a.breadcrum:hover { text-decoration:none; color:#000; }
+a.breadcrum:active { text-decoration:none;  color:#000; }
+
+/* sponsors */
+li.sponsors {font-family:Verdana, Geneva, sans-serif; list-style-type:disc; font-size:13px;}
+#twitter { margin-top:15px; margin-left:0px;margin-right:5px; width:175px}
+#sponsors {  }
+#sponsors img{ border: thin solid black;width:180px}
+
+/* Balletjes */
+#fixedballs { z-index:1; position:fixed; margin-top: 400px;bottom:0px; margin-left:0px;	margin-bottom:0px;}
+
+/*#fixedballs { z-index:1; position:fixed; margin-top: 400px;bottom:0px; margin-left:155px;	margin-bottom:-80px;}*/
+/*#fixedballs { z-index:1; position:float; margin-top: 400px;bottom:0px; margin-left:8.4%;	margin-bottom:-80px;}*/
+
+/* contact gegevens links */
+#contactinfo { 
+/*position:absolute;*/ bottom:0;  margin-left:5px; margin-top:auto; margin-bottom:-15px/*100 voor screenshot anders */ ; color:#FFF; font-style:italic; font-weight:200; font-size:13px;
+/* Voor screenshot 30-6-2011 */	z-index:1;	position:fixed; }
+
+#contactinfo a{color:#FFF; font-style:italic; font-weight:200; font-size:13px; text-decoration:none;}
+
+table { }
+tr { margin: 0px}
+tr.overzichttop {font-weight: bold;	}
+img { border-style: none; }
+table {	font-size: 11px; }
+
+
+#footer {width:1024px;height:45px; margin-top:0px;background-image:url(/themes/custom/oliveohandbal3/images/footer2.png); background-position:center; background-repeat:no-repeat;}
+
+
+/*#footercontent { margin-top:40px; margin-left:auto; margin-right:auto;width:500;font-size:10px; }*/
+#footercontent {margin-top:18px;margin-left:410px;font-size:10px;float:left }

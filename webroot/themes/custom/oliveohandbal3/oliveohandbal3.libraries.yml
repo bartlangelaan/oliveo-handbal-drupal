@@ -1,0 +1,11 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/stylev2.css: {}
+  js:
+    js/tinydropdown.js: {}
+    js/fadeslideshow.js: {}
+    js/oliveohandbal.js: {}
+  dependencies:
+    - core/jquery

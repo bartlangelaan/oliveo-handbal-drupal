@@ -1,0 +1,10 @@
+name: Oliveo Handbal 3
+type: theme
+description: Een Drupal-versie van de Oliveo Handbal website, versie 3 (sinds september 2011)
+core: 8.x
+base theme: classy
+libraries:
+  - oliveohandbal3/global-styling
+regions:
+  navigation: Navigation
+  content: Content
