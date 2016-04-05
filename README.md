@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/485ce2f706f43d38759d003bd0930b05/m "wercker status")](https://app.wercker.com/project/bykey/485ce2f706f43d38759d003bd0930b05)
+
 Versie 4 van de Oliveo Handbal website.
 
 Gemaakt in Drupal 8.
