@@ -14,7 +14,7 @@ deploy:
         code: sudo apt-get update
     - script:
         name: Install NcFTP
-        code: sudo apt-get install lftp
+        code: sudo apt-get -y install lftp
     - script:
         name: Upload with NcFTP
         code: lftp -u $FTP_USERNAME,$FTP_PASSWORD -e "mirror --reverse --only-newer ./ $FTP_DESTINATION/; quit" ftp://$FTP_HOST:21
