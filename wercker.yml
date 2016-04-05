@@ -1,5 +1,4 @@
 box: drupaldocker/drush:8
-no-response-timeout: 30
 build:
   steps:
     - script:
@@ -7,9 +6,10 @@ build:
         cwd: webroot/
         code: drush make drupal.make -y
 deploy:
+  box: wercker/default
   steps:
-    - duleorlovic/ftp-deploy:
-        destination: $FTP_DESTINATION
+    - wercker-labs/azure-ftp-deploy:
+        publish-url: $FTP_DESTINATION
         username: $FTP_USERNAME
         password: $FTP_PASSWORD
         cwd: webroot/
