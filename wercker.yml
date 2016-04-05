@@ -4,7 +4,7 @@ build:
     - script:
         name: Drush make
         cwd: webroot/
-        code: drush make drupal.make
+        code: drush make drupal.make -y
 deploy:
   steps:
     - duleorlovic/ftp-deploy:
