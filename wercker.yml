@@ -6,7 +6,6 @@ build:
         cwd: webroot/
         code: drush make drupal.make -y
 deploy:
-  box: wercker/default
   steps:
     - wercker-labs/azure-ftp-deploy:
         publish-url: $FTP_DESTINATION
