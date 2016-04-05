@@ -7,3 +7,5 @@ projects[drupal][version] = "8.0.5"
 
 ; Modules
 projects[admin_toolbar][version] = "1.14"
+
+projects[field_group][version] = "1.0-rc4"
