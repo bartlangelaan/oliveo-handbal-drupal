@@ -6,9 +6,12 @@ build:
         cwd: webroot/
         code: drush make drupal.make -y
 deploy:
+  box: ubuntu:latest
   steps:
-    - wercker-labs/azure-ftp-deploy:
-        publish-url: $FTP_DESTINATION
-        username: $FTP_USERNAME
-        password: $FTP_PASSWORD
+    - script:
+        name: Install NcFTP
+        code: sudo apt-get install ncftp
+    - script:
+        name: Upload with NcFTP
+        code: ncftpput -R -v -u $FTP_USERNAME -p $FTP_PASSWORD $FTP_HOST $FTP_DESTINATION /
         cwd: webroot/
