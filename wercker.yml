@@ -1,3 +1,4 @@
+command-timeout: 60
 box: drupaldocker/drush:8
 build:
   steps:
@@ -13,8 +14,8 @@ deploy:
         code: sudo apt-get update
     - script:
         name: Install NcFTP
-        code: sudo apt-get install ncftp
+        code: sudo apt-get install lftp
     - script:
         name: Upload with NcFTP
-        code: ncftpput -R -V -u $FTP_USERNAME -p $FTP_PASSWORD $FTP_HOST $FTP_DESTINATION .
+        code: lftp -u $FTP_USERNAME,$FTP_PASSWORD -e "mirror --reverse --only-newer ./ $FTP_DESTINATION/; quit" ftp://$FTP_HOST:21
         cwd: webroot/
