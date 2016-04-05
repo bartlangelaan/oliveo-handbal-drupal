@@ -6,9 +6,10 @@ build:
         cwd: webroot/
         code: drush make drupal.make -y
 deploy:
+  box: drupaldocker/drush:8
   steps:
     - duleorlovic/ftp-deploy:
-        destination: ftp://oliveohandbal.nl/test/
+        destination: $FTP_DESTINATION
         username: $FTP_USERNAME
         password: $FTP_PASSWORD
         cwd: webroot/
