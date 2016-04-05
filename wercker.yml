@@ -6,8 +6,11 @@ build:
         cwd: webroot/
         code: drush make drupal.make -y
 deploy:
-  box: ubuntu:latest
+  box: debian:latest
   steps:
+    - script:
+        name: Update sources
+        code: sudo apt-get update
     - script:
         name: Install NcFTP
         code: sudo apt-get install ncftp
