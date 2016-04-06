@@ -5,7 +5,7 @@ build:
     - script:
         name: Drush make
         cwd: webroot/
-        code: drush make drupal.make -y
+        code: drush make drupal.make --no-core -y
 deploy:
   box: debian:latest
   steps:
@@ -14,8 +14,8 @@ deploy:
         code: sudo apt-get update
     - script:
         name: Install NcFTP
-        code: sudo apt-get -y install lftp
+        code: sudo apt-get -y install ncftp
     - script:
         name: Upload with NcFTP
-        code: lftp -u $FTP_USERNAME,$FTP_PASSWORD -e "set ftp:ssl-allow no; mirror --reverse --only-newer ./ $FTP_DESTINATION/; quit" ftp://$FTP_HOST:21
+        code: ncftpput -R -V -u $FTP_USERNAME -p $FTP_PASSWORD $FTP_HOST $FTP_DESTINATION .
         cwd: webroot/
